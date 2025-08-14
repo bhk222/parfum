@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #f6f7f9;
+  color: #222;
+}
+button {
+  cursor: pointer;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1d1f22;
+    color: #f1f3f5;
+  }
+  table {
+    color: #f1f3f5;
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  --bg: #0f1115;
+  --panel: #1d2129;
+  --text: #f1f5f9;
+  --accent: #0ea5e9;
+  --danger: #dc2626;
+  --warn: #f59e0b;
+  font-family: system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button {
+  background: var(--accent);
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+button.secondary { background: var(--panel); border:1px solid var(--accent); }
+.panel {
+  background: var(--panel);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.flex { display:flex; gap:1rem; }
+.grid { display:grid; gap:1rem; }

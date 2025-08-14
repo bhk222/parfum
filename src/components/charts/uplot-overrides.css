@@ -1,0 +1,8 @@
+/* Quelques styles minimes pour uPlot si nécessaire */
+.uplot {
+  font-size: 11px;
+}
+.uplot .u-title {
+  font-size: 12px;
+  font-weight: 600;
+}
