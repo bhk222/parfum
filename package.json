@@ -10,14 +10,15 @@
     "seed": "node --loader ts-node/esm src/scripts/seedDemo.ts"
   },
   "dependencies": {
-    "date-fns": "^3.6.0",
-    "dexie": "^4.0.11",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.1",
-    "uplot": "^1.6.30",
-    "vite-plugin-pwa": "^1.0.2",
-    "zustand": "^4.5.7"
+  "date-fns": "^3.6.0",
+  "dexie": "^4.0.11",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-router-dom": "^6.23.1",
+  "uplot": "^1.6.30",
+  "vite-plugin-pwa": "^1.0.2",
+  "zustand": "^4.5.7",
+  "@vitejs/plugin-react": "^4.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
