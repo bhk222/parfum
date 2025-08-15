@@ -16,19 +16,19 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "uplot": "^1.6.30",
+    "vite-plugin-pwa": "^1.0.2",
     "zustand": "^4.5.7"
   },
   "devDependencies": {
-  "@types/react": "^18.2.21",
-  "@types/react-dom": "^18.2.7",
-  "autoprefixer": "^10.4.19",
-  "postcss": "^8.4.38",
-  "ts-node": "^10.9.2",
-  "typescript": "^5.4.0",
-  "vite": "^5.2.0"
-  }
-  ,
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0",
+    "vite": "^5.2.0"
+  },
   "engines": {
-    "node": "18.x"
+  "node": "20.x"
   }
 }
